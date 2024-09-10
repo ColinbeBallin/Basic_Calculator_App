@@ -8,13 +8,13 @@ print("Type your first number: ")
 first_num = int(input())
 print("Type your second number: ")
 second_num = int(input())
-if operation== "a":
+if operation == "a":
     answer = first_num + second_num
-elif operation== "b":
+elif operation == "b":
     answer = first_num - second_num
-elif operation== "c":
+elif operation == "c":
     answer = first_num * second_num
-elif operation== "d":
+elif operation == "d":
     answer = first_num / second_num
 else:
     print("Error, please pick the correct letter")
